@@ -2,8 +2,8 @@
 ![42](https://img.shields.io/badge/-42-black?style=for-the-badge&logo=42&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 ## Project's descrition
-Fdf representing a landscape as a 3D object in wich all surfaces are outlined in lines. It's a 42 projects to learn 
-how to use the minilibx a little libraries to manage window and display pixel on the screen.
+Fdf representing a landscape as a 3D object in wich all surfaces are outlined in lines. For working the programm only need a file filled of digit. 
+It's a 42 projects to learn how to use the minilibx a little libraries to manage window and display pixel on the screen.
 
 ## Project's Features
 

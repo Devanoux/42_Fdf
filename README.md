@@ -1,46 +1,84 @@
-### FDF
+# FDF
+
+**Wireframe 3D landscape renderer — projects a heightmap file into an isometric 3D view using MiniLibX.**
+
 ![42](https://img.shields.io/badge/-42-black?style=for-the-badge&logo=42&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-## Project's descrition
-Fdf representing a landscape as a 3D object in wich all surfaces are outlined in lines. For working the programm only need a file filled of digit. 
-It's a 42 projects to learn how to use the minilibx a little libraries to manage window and display pixel on the screen.
+---
 
-## Project's Features
+##  FEATURES
 
-- Increase Z values
-- Colors
-- Rotation
-- Translation
-- Zoom in / Zoom out
+| | Description |
+|---|---|
+| Z scaling | Increase or decrease elevation of the terrain |
+| Colors | Custom color rendering per height level |
+| Rotation | Rotate the model on all axes |
+| Translation | Move the view across the screen |
+| Zoom | Zoom in and out of the projection |
 
-## Project overview
+---
 
-#### Mandatory Part
-![Screenshot from 2025-02-26 16-16-00](https://github.com/user-attachments/assets/abed95ad-e03b-4907-831e-b8e926c40d0a)
+## OVERVIEW
 
-#### Bonus Part
-![Screenshot from 2025-02-10 17-49-46](https://github.com/user-attachments/assets/77d92ef3-907a-41f5-9416-bf38ea20f974)
+**Mandatory — basic isometric projection**
 
-## Getting Started
-### Download the repository
-```
+![Mandatory](https://github.com/user-attachments/assets/abed95ad-e03b-4907-831e-b8e926c40d0a)
+
+**Bonus — extended rendering**
+
+![Bonus](https://github.com/user-attachments/assets/77d92ef3-907a-41f5-9416-bf38ea20f974)
+
+---
+
+##  INSTALLATION
+
+**1. Clone the repository**
+```bash
 git clone https://github.com/Ernst-Devan/Fdf.git Dernst_fdf
-```
-### Access and compile the project
-```
 cd Dernst_fdf
+```
+
+**2. Compile**
+```bash
 make
 ```
-### Adding bonus part to the exec
-```
+
+**Bonus part**
+```bash
 make bonus
 ```
-### Launch the program
-```
-./fdf (maps paths)
-```
-## Acknowledgments
 
-- Bresenham Algorithm (https://www.youtube.com/watch?v=RGB-wlatStc&ab_channel=AbdulBari)
-- Slope Line (https://personal.math.ubc.ca/~cass/courses/m308-02b/projects/puhalovic/index.html#Introduction)
-- Isometrics Projection (https://en.wikipedia.org/wiki/Isometric_projection)
+**3. Run**
+```bash
+./fdf <map_path>
+```
+
+---
+
+##  CONTROLS
+
+| Key | Action |
+|---|---|
+| `↑` `↓` `←` `→` | Rotate |
+| `+` `-` | Zoom in / out |
+| `W` `A` `S` `D` | Translate |
+| `PgUp` `PgDn` | Increase / decrease Z scale |
+| `ESC` | Quit |
+
+---
+
+##  REFERENCES
+
+- [Bresenham's Line Algorithm](https://www.youtube.com/watch?v=RGB-wlatStc&ab_channel=AbdulBari)
+- [Slope Line](https://personal.math.ubc.ca/~cass/courses/m308-02b/projects/puhalovic/index.html#Introduction)
+- [Isometric Projection](https://en.wikipedia.org/wiki/Isometric_projection)
+
+---
+
+## CREDITS
+
+- [Ernst-Devan](https://github.com/Ernst-Devan)
+
+---
+
+*42 school project.*

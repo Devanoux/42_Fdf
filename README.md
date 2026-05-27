@@ -59,10 +59,10 @@ make bonus
 
 | Key | Action |
 |---|---|
-| `↑` `↓` `←` `→` | Rotate |
+| `↑` `↓` `←` `→` `a` `e`| Rotate |
 | `+` `-` | Zoom in / out |
-| `W` `A` `S` `D` | Translate |
-| `PgUp` `PgDn` | Increase / decrease Z scale |
+| `z` `q` `s` `d` | Translate |
+| `o` `l` | Increase / decrease Z scale |
 | `ESC` | Quit |
 
 ---
